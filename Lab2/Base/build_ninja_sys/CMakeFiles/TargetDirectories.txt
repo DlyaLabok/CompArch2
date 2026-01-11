@@ -1,4 +1,0 @@
-/home/io31teteruk/Lab2_Work/Base/build_ninja_sys/CMakeFiles/calculator_lib.dir
-/home/io31teteruk/Lab2_Work/Base/build_ninja_sys/CMakeFiles/calculator_app.dir
-/home/io31teteruk/Lab2_Work/Base/build_ninja_sys/CMakeFiles/edit_cache.dir
-/home/io31teteruk/Lab2_Work/Base/build_ninja_sys/CMakeFiles/rebuild_cache.dir
