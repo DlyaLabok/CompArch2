@@ -1,0 +1,92 @@
+    1  uname -a
+    2  sudo apt update
+    3  cat /etc/apt/sources.list
+    4  sudo apt install vim
+    5  cd ~
+    6  cd Downloads
+    7  man ls
+    8  ls -l
+    9  dpkg -i packetname.deb
+   10  sudo dpkg -i packetname.deb
+   11  cd /
+   12  sudo -i
+   13  exit
+   14  echo "hi all"
+   15  echo $PWD "hi all here!"
+   16  touch hi.sh
+   17  echo $PATH
+   18  vi hi.sh
+   19  ./hi.sh
+   20  chmod a+x hi.sh
+   21  chmod 777 hi.sh
+   22  ./hi.sh
+   23  ./hi.sh Ukraine
+   24  mkdir -p scripts
+   25  cp hi.sh scripts/
+   26  cp scripts Documents
+   27  cp -r scripts Documents
+   28  cd scripts
+   29  mv hi.sh ..
+   30  cd ..
+   31  rm scripts
+   32  rm -r scripts
+   33  cd /bin
+   34  ls -l
+   35  cd ../..
+   36  tar -czvf scripts.tar.gz scripts
+   37  cat scripts.tar.gz
+   38  cat /var/log/syslog
+   39  tail -n 20 /var/log/syslog
+   40  less /var/log/syslog
+   41  cd /
+   42  find . -name "dhcp"
+   43  find . -name "*dhcp*"
+   44  find . -iname "*dhcp*"
+   45  find . -iname "*dhcp*" | grep --color=auto -i "etc"
+   46  ping -c 4 google.com
+   47  ping google.com > /dev/null &
+   48  sudo ping -c 4 google.com
+   49  vlc
+   50  ls -l
+   51  cd /bin
+   52  ls
+   53  echo $PATH
+   54  env
+   55  whoami
+   56  cd /etc/
+   57  ls
+   58  cd ..
+   59  cd lib
+   60  ls
+   61  dmesg
+   62  sudo dmesg
+   63  ls /dev
+   64  sudo dmesg -c
+   65  dmesg
+   66  df -h
+   67  cd /home
+   68  ls -l
+   69  lsmod
+   70  cd /proc
+   71  cat cpuinfo
+   72  echo 1 > /proc/sys/net/ipv4/ip_forward
+   73  sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+   74  sudo -i
+   75  ip a
+   76  ip link show
+   77  cd ~
+   78  echo "vika" > 1.txt
+   79  cat 1.txt
+   80  echo "vasya" > 2.txt
+   81  cat 2.txt
+   82  diff 1.txt 2.txt
+   83  history
+   84  lspci
+   85  fg
+   86  ps -ef | grep ping
+   87  kill -15 12064
+   88  ps aux | grep ping
+   89  kill 13235
+   90  sudo kill -9 13235
+   91  sudo pkill vlc
+   92  history > history.txt
