@@ -1,0 +1,4 @@
+/home/io31teteruk/Lab2/build/CMakeFiles/calculator.dir
+/home/io31teteruk/Lab2/build/CMakeFiles/app.dir
+/home/io31teteruk/Lab2/build/CMakeFiles/edit_cache.dir
+/home/io31teteruk/Lab2/build/CMakeFiles/rebuild_cache.dir
