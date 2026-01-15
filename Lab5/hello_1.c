@@ -42,7 +42,7 @@ void my_print_function(void)
 {
     printk(KERN_EMERG "Hello from Module 1 function!\n");
 }
-EXPORT_SYMBOL(my_print_function); // Магія тут
+EXPORT_SYMBOL(my_print_function); 
 
 static int __init hello_1_init(void)
 {
