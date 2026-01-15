@@ -35,7 +35,7 @@
 
 MODULE_AUTHOR("IO-31 Teteruk");
 MODULE_DESCRIPTION("Hello 1 - Exports a function");
-MODULE_LICENSE("GPL"); // Обов'язково GPL для EXPORT_SYMBOL
+MODULE_LICENSE("GPL"); 
 
 // Функція, яку ми будемо експортувати
 void my_print_function(void)
